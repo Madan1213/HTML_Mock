@@ -1,0 +1,51 @@
+
+
+body{
+    background-color: gray;
+}
+#formm{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto;
+    background-color: thistle;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    
+}
+#okay{
+    position: relative;
+}
+.fa{
+    position: absolute;
+    right: 36px;   
+    top: 10;
+    /* display: inherit; */
+}
+
+#msg{
+    color: crimson;
+    height: 20px;
+    width: auto;
+    display: none;
+}
+
+#pmsg{
+    color: crimson;
+    height: 20px;
+    width: auto;
+    display: none;
+}
+
+#cmsg{
+    color: crimson;
+    height: 20px;
+    width: auto;
+    display: none;
+}
+#msg>onclick{
+    display: none;
+}

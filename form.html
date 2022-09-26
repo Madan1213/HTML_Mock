@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+<link rel="stylesheet" href="https:cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div id="formm">
+        <form action="file:///C:/Users/Maddy/Desktop/DOM/Single%20doc/Single.html" class="form" onsubmit="return validate()"  >
+            <div>Username  <br><input type="text" name="name" id="user" placeholder="username"></div>
+            <div id="msg"></div><br>
+
+            <div id="okay">Password  <br>
+                <input type="password" name="password" id="pwd" placeholder="password">
+                <i id="eye" class="fa fa-eye" aria-hidden="true" onclick="togglepassword()"  ></i>
+            </div>
+            
+            <div id="pmsg"></div><br>
+            <div><input type="checkbox" name="" id="check">Accept terms and conditions</div>
+            <div id="cmsg"></div>
+            <div id="sub"><br><button type="submit">submit</button></div>
+            
+        </form>
+    </div>
+    
+
+
+    <script src="form.js"></script>
+    <script src="check.js"></script>
+</body>
+</html>
